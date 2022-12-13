@@ -2,9 +2,9 @@ provider "aws" {
 
           region  = "us-east-1"
 
-          access_key = "AKIA3TJDIAU5IKFM2L5L"
+          access_key = "AKIASQ3KCLAJLD7IYBOV"
 
-          secret_key = "COHaJeN3GK5hG40HLVvAZb9zyRiund+m4IfMC34h"
+          secret_key = "Y+lKPv6tJ6qfK3cxUgc3LmckG6gon/i1M02sRCzY"
 }
 resource "aws_instance" "example" {
   ami           = "ami-0574da719dca65348"
